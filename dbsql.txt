@@ -1,0 +1,37 @@
+-- Create a database
+CREATE DATABASE ecommerce_db;
+USE ecommerce_db;
+
+-- Create a table for categories
+CREATE TABLE categories (
+    category_id INT AUTO_INCREMENT PRIMARY KEY,
+    category_name VARCHAR(255) NOT NULL
+);
+
+-- Insert category data
+INSERT INTO categories (category_name) VALUES
+    ('Bags'),
+    ('Shoes'),
+    ('Watches');
+
+-- Create a table for products
+CREATE TABLE products (
+    product_id INT AUTO_INCREMENT PRIMARY KEY,
+    product_name VARCHAR(255) NOT NULL,
+    category_id INT,
+    gender VARCHAR(10) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL,
+    description TEXT,
+    stock_quantity INT NOT NULL,
+    image_url VARCHAR(255),
+    FOREIGN KEY (category_id) REFERENCES categories(category_id)
+);
+
+-- Insert product data (Sample data)
+INSERT INTO products (product_name, category_id, gender, price, description, stock_quantity, image_url) VALUES
+    ('Men\'s Leather Bag', 1, 'Men', 79.99, 'High-quality leather bag for men', 100, 'bag1.jpg'),
+    ('Women\'s Tote Bag', 1, 'Women', 69.99, 'Stylish tote bag for women', 120, 'bag2.jpg'),
+    ('Men\'s Running Shoes', 2, 'Men', 99.99, 'Comfortable running shoes for men', 150, 'shoes1.jpg'),
+    ('Women\'s High Heels', 2, 'Women', 79.99, 'Elegant high heels for women', 80, 'shoes2.jpg'),
+    ('Men\'s Sports Watch', 3, 'Men', 129.99, 'Durable sports watch for men', 50, 'watch1.jpg'),
+    ('Women\'s Fashion Watch', 3, 'Women', 149.99, 'Stylish fashion watch for women', 60, 'watch2.jpg');

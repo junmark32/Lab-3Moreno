@@ -1,0 +1,103 @@
+CRITICAL - 2023-09-30 01:41:17 --> Undefined variable $products
+in APPPATH\Views\admins\insert.php on line 26.
+ 1 APPPATH\Views\admins\insert.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Views\\admins\\insert.php', 26)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Views\\admins\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admins/insert', [], true)
+ 5 APPPATH\Controllers\AdminsController.php(13): view('admins/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminsController->add_Prod()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminsController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 01:45:24 --> Undefined variable $products
+in APPPATH\Views\admins\insert.php on line 70.
+ 1 APPPATH\Views\admins\insert.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Views\\admins\\insert.php', 70)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Views\\admins\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admins/insert', [], true)
+ 5 APPPATH\Controllers\AdminsController.php(13): view('admins/insert')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminsController->add_Prod()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminsController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 01:48:23 --> Undefined variable $data
+in APPPATH\Controllers\AdminsController.php on line 13.
+ 1 APPPATH\Controllers\AdminsController.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Controllers\\AdminsController.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminsController->add_Prod()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminsController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 01:49:03 --> Undefined array key "category"
+in APPPATH\Views\admins\insert.php on line 73.
+ 1 APPPATH\Views\admins\insert.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Views\\admins\\insert.php', 73)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Views\\admins\\insert.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admins/insert', [], true)
+ 5 APPPATH\Controllers\AdminsController.php(19): view('admins/insert', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AdminsController->add_Prod()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminsController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 02:41:36 --> Undefined array key "geneder"
+in APPPATH\Views\index.php on line 273.
+ 1 APPPATH\Views\index.php(273): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "geneder"', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Views\\index.php', 273)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\ProductController.php(15): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 13:19:12 --> Undefined property: App\Controllers\ProductController::$load
+in APPPATH\Controllers\ProductController.php on line 24.
+ 1 APPPATH\Controllers\ProductController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductController::$load', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Controllers\\ProductController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->getProductDetails('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 13:21:11 --> Class "App\Controllers\ProductImageModel" not found
+in APPPATH\Controllers\ProductController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->getProductDetails('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 13:24:51 --> Undefined property: App\Controllers\ProductController::$load
+in APPPATH\Controllers\ProductController.php on line 24.
+ 1 APPPATH\Controllers\ProductController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductController::$load', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Controllers\\ProductController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->getProductDetails('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 13:24:53 --> Undefined property: App\Controllers\ProductController::$load
+in APPPATH\Controllers\ProductController.php on line 24.
+ 1 APPPATH\Controllers\ProductController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductController::$load', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Controllers\\ProductController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->getProductDetails('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 13:27:32 --> Undefined property: App\Controllers\ProductController::$load
+in APPPATH\Controllers\ProductController.php on line 24.
+ 1 APPPATH\Controllers\ProductController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductController::$load', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Controllers\\ProductController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->getProductDetails('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
+CRITICAL - 2023-09-30 13:48:58 --> Undefined property: App\Controllers\ProductController::$load
+in APPPATH\Controllers\ProductController.php on line 24.
+ 1 APPPATH\Controllers\ProductController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\ProductController::$load', 'C:\\laragon\\www\\Moreno_3f3ecommerce\\app\\Controllers\\ProductController.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->getProductDetails('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Moreno_3f3ecommerce\\public\\index.php')
